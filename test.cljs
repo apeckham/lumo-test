@@ -1,6 +1,4 @@
-(ns my-project.tests
-  (:require [cljs.test :refer-macros [deftest is testing run-tests async]]))
-
+(require '[cljs.test :refer-macros [deftest is testing run-tests async]])
 (def pup (js/require "puppeteer"))
 
 (deftest test-numbers
