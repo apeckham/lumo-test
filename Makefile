@@ -1,2 +1,2 @@
 default:
-	lumo test.cljs
+	lumo -c $$(lein classpath) test.cljs
